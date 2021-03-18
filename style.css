@@ -283,3 +283,62 @@ a {
   font-size: 14px;
   opacity: 0.5;
 }
+
+/*Contact Form*/
+.contact_area {
+  background: url(images/ice.jpg);
+  background-size: cover;
+  padding: 50px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contact_area .inner_contact {
+  width: 900px;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.contact_area .inner_contact h1.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+.contact_area .main_contact_form {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+  text-align: center;
+}
+.contact_area .main_contact_form input {
+  background: #fff;
+  border: 0;
+  width: 43%;
+  float: left;
+  padding: 15px 2%;
+  margin: 0 1% 2%;
+  border-radius: 5px;
+}
+.contact_area .main_contact_form textarea {
+  background: #fff;
+  border: 0;
+  width: 92%;
+  margin: 0 1% 2%;
+  padding: 15px 2%;
+  border-radius: 5px;
+  min-height: 100px;
+  float: left;
+}
+.contact_area .main_contact_form input[type="submit"] {
+  background: #97455f;
+  width: 250px;
+  margin: 0 auto;
+  float: none;
+  color: #fff;
+  font-size: 21px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.8s;
+}
